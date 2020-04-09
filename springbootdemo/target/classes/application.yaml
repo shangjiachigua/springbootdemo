@@ -1,9 +1,11 @@
+#修改端口号
 server:
-  port: 8088
+  port: 8080
+  #这只logging日志级别
 logging:
   level:
     wen.tian: debug
-    org.springframework: debug
+    # org.springframework: debug
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver

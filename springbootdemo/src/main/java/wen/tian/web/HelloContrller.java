@@ -19,7 +19,7 @@ public class HelloContrller {
     @Autowired
     private UserService userService;
     @GetMapping("hello")
-    public List<User> hello(){
-        return userService.getUser();
+    public String hello(){
+        return "hello spring boot";
     }
 }

@@ -3,6 +3,8 @@ package wen.tian;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
@@ -11,8 +13,15 @@ import tk.mybatis.spring.annotation.MapperScan;
  **/
 @SpringBootApplication
 @MapperScan("wen.tian.mapper")
+@RestController
 public class BootDemoApplication {
+
     public static void main(String[] args){
         SpringApplication.run(BootDemoApplication.class);
     }
+    @RequestMapping
+    public String testDemo(){
+        return "HELLO SPRING BOOT";
+    }
+
 }

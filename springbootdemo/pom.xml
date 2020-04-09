@@ -15,9 +15,9 @@
     </parent>
     <dependencies>
         <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!--lombok插件依赖可以生成getter和setter方法-->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -33,12 +33,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.15</version>
         </dependency>
-       <!-- &lt;!&ndash;mybatis启动器&ndash;&gt;
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.1.0</version>
-        </dependency>-->
+        <!-- &lt;!&ndash;mybatis启动器&ndash;&gt;
+         <dependency>
+             <groupId>org.mybatis.spring.boot</groupId>
+             <artifactId>mybatis-spring-boot-starter</artifactId>
+             <version>2.1.0</version>
+         </dependency>-->
         <!--通用mapper-->
         <!--通用mapper中已经引入了mybatis启动器和jdbc启动器-->
         <dependency>

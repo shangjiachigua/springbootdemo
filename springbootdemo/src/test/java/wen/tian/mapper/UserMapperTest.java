@@ -24,4 +24,5 @@ public class UserMapperTest {
             System.out.println(user1);
         }
     }
+
 }
