@@ -14,3 +14,9 @@ spring:
     password: root
 mybatis:
   type-aliases-package: wen.tian.pojo
+swagger:
+  enabled: true
+  title: API document
+  description: api_tian
+  base-package: wen.tian.web
+  version: 0.0.1
